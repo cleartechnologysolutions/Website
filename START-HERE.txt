@@ -1,7 +1,7 @@
 CLEAR TECHNOLOGY SOLUTIONS — CLOUDFLARE WEBSITE
 
 Contains the updated business wording, 303-242-2483 and
-infor@cleartechnologysolutions.com (exactly as supplied).
+info@cleartechnologysolutions.com (exactly as supplied).
 
 WORKERS WITH GITHUB (same approach as your other apps)
 1. Extract this ZIP and upload its contents to your website repository.
