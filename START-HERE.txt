@@ -1,0 +1,28 @@
+CLEAR TECHNOLOGY SOLUTIONS — CLOUDFLARE WEBSITE
+
+Contains the updated business wording, 303-242-2483 and
+infor@cleartechnologysolutions.com (exactly as supplied).
+
+WORKERS WITH GITHUB (same approach as your other apps)
+1. Extract this ZIP and upload its contents to your website repository.
+   Keep the dist folder intact, with package.json and wrangler.jsonc at root.
+2. Connect the repository to a Cloudflare Worker.
+   Worker name: clear-technology-solutions
+   Build command: npm run build
+   Deploy command: npx wrangler deploy
+3. If you use a different Worker name, update name in wrangler.jsonc.
+4. Add your desired custom domain in that Worker's domain settings.
+
+This is a static website. No database, R2 bucket, passwords, or API keys
+are required. Email and phone buttons open the visitor's email/dialer app;
+there is no contact-form backend. Google Fonts are loaded externally.
+
+DIRECT STATIC UPLOAD
+The dist folder contains the entire website: index.html, styles.css,
+script.js and colorado-hero.webp. For a static-site upload, upload those
+files with index.html at the upload root, not the outer project folder.
+
+The Cloudflare deployment is independent of the private ChatGPT-hosted
+website. It does not inherit the ChatGPT sign-in requirement.
+
+Reference: https://developers.cloudflare.com/workers/static-assets/get-started/
